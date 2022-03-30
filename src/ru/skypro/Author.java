@@ -1,19 +1,19 @@
 package ru.skypro;
 
 public class Author {
-    private String name;
-    private String surname;
+    private String nameAuthor;
+    private String surnameAuthor;
 
-    public Author(String name, String surname) {
-        this.name = name;
-        this.surname = surname;
+    public Author(String nameAuthor, String surnameAuthor) {
+        this.nameAuthor = nameAuthor;
+        this.surnameAuthor = surnameAuthor;
+    }
+
+   public String getNameAuthor() {
+        return this.nameAuthor;
+    }
+
+    public String getSurnameAuthor() {
+        return this.surnameAuthor;
     }
 }
-/*    public String getName() {
-        return this.name;
-    }
-
-    public String getSurname() {
-        return this.surname;
-    }
-}*/
