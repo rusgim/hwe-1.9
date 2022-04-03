@@ -15,4 +15,5 @@ public class Main {
         System.out.println("Автор = " + thomasHarris.getNameAuthor() + " " + thomasHarris.getSurnameAuthor());
         System.out.println("Год издания = " + the_silence_of_the_lambs.getYearOfPublication());
     }
+
 }
